@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from nap60s.club/site/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Nov 2018 15:31:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="../assets/5207afb6/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="../assets/5207afb6/css/bootstrap-yii.css" />
+<link rel="stylesheet" type="text/css" href="../assets/5207afb6/css/jquery-ui-bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="../css/ace-fonts.css" />
+<link rel="stylesheet" type="text/css" href="../css/ace.min.css" />
+<link rel="stylesheet" type="text/css" href="../css/ace-rtl.min.css" />
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<script type="text/javascript" src="../assets/6e2a2317/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/5207afb6/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../assets/5207afb6/js/bootstrap-noconflict.js"></script>
+<script type="text/javascript" src="../assets/5207afb6/bootbox/bootbox.min.js"></script>
+<script type="text/javascript" src="../assets/5207afb6/notify/notify.min.js"></script>
+<script type="text/javascript" src="../js/html5shiv.js"></script>
+<script type="text/javascript" src="../js/respond.min.js"></script>
+<title>
+        Cổng chuyển khoản 60s.club
+    </title>
+    <meta name="description" content="User login page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- basic styles -->
+
+    <!--[if IE 7]>
+    $cs->registerCssFile(ROOT_URL . '/css/font-awesome-ie7.min.css');
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+    $cs->registerCssFile(ROOT_URL . '/css/ace-ie.min.css');
+    <![endif]-->
+
+    <!-- inline styles related to this page -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+        <![endif]-->
+</head>
+
+<body class="login-layout">
+<div class="main-container">
+    <div class="main-content">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="login-container" style="margin-top: 10%">
+                    <center><span class="logo-lg"><img src="../img/logo1.png"/></span></center>
+                    <div class="space-6"></div>
+                    <div class="position-relative">
+                        <style type="text/css">
+    #yw0_button{
+        display: none;
+    }
+</style>
+<form id="login-form" action="https://nap60s.club/site/login" method="post">    <div id="login-box" class="login-box visible widget-box no-border">
+    <div class="widget-body">
+        <div class="widget-main">
+            <div class="space-6"></div>
+            <fieldset>
+                                <label class="block clearfix">
+                                        <span class="block input-icon input-icon-right">
+                        <input class="form-control" placeholder="Tên tài khoản" name="LoginForm[username]" id="LoginForm_username" type="text" />                    </span>
+                </label>
+
+                <label class="block clearfix">
+                                        <span class="block">
+                        <input class="form-control" placeholder="Mật khẩu" name="LoginForm[password]" id="LoginForm_password" type="password" />                    </span>
+                </label>
+                <div class="row rememberMe">
+                    <input id="ytLoginForm_rememberMe" type="hidden" value="0" name="LoginForm[rememberMe]" /><input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="1" type="checkbox" />                    <label for="LoginForm_rememberMe">Ghi nhớ</label>                                    </div>
+                <a href="https://www.facebook.com/dialog/oauth?client_id=1979927462336372&amp;redirect_uri=https://60s.club&amp;scope=email,public_profile" class="login_fb"><img id="floading" style="float: left" name="floading"  src="../img/fb.jpg" height="30px"></a>
+                <div class="clearfix">
+                    <label class="inline">
+                    </label>
+                    <button type="submit" class="width-35 pull-right btn btn-sm btn-primary">
+                        Đăng nhập
+                    </button>
+                </div>
+
+                <div class="space-4"></div>
+            </fieldset>
+        </div>
+        <!-- /widget-main -->
+
+    </div>
+    <script>
+        function fb_login(fb_id){
+            alert('Bạn hãy đăng nhập vào game trước, sau đó nhấn vào nút chuyển khoản!');
+            return;
+            /*if(fb_id != ""){
+                FB.init({
+                    appId      : fb_id,   // App ID from the app dashboard
+                    status     : true,
+                    cookie     : true,    // Check Facebook Login status
+                    xfbml      : true,
+                    version    : '{latest-api-version}'
+                });
+                FB.login(function(response) {
+                    if (response.authResponse) {
+                        FB.api('/me?fields=email,name,gender,first_name,last_name,birthday', function(response) {
+                            console.log(response);
+                            sociallogin(response);
+                        });
+                    }
+                }, {scope: 'email,public_profile'});
+            }*/
+        }
+
+        // make an ajax call to authenticate
+        function sociallogin(response){
+            var base_url = '../index.html';
+            var url = base_url+'/site/fblogin';
+            $.post(url , {response})
+                .done(function(output) {
+                    if (output == 1) {
+                        window.location.href = base_url;
+                    } else {
+                        alert(output);
+                    }
+                }
+            );
+        }
+    </script>
+    <!-- /login-box -->
+</form>                    </div><!-- /position-relative -->
+                </div>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div>
+</div><!-- /.main-container -->
+<div id="fb-root"></div>
+<script type="text/javascript" src="../../connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('[data-toggle=popover]').popover();
+jQuery('[data-toggle=tooltip]').tooltip();
+});
+/*]]>*/
+</script>
+</body>
+
+<!-- Mirrored from nap60s.club/site/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Nov 2018 15:32:02 GMT -->
+</html>
