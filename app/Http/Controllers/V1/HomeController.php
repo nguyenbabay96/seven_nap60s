@@ -22,7 +22,7 @@ class HomeController extends BaseController
 
     public function index()
     {
-        $view   = 'v1.home.index';
+        $view   = 'v1.home.index2';
         return view($view, compact('system'));
     }
 

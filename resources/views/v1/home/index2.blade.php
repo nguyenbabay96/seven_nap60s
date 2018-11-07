@@ -1,372 +1,116 @@
-<!-- saved from url=(0090)file:///D:/CHINHNC/HTML/xengf/Xeng%20Club%20-%20C%E1%BB%95ng%20Game%20D%C3%A2n%20Gian.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html lang="en">
 
+<!-- Mirrored from nap60s.club/site/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Nov 2018 15:31:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/master/assets/5207afb6/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/master/assets/5207afb6/css/bootstrap-yii.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/master/assets/5207afb6/css/jquery-ui-bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/master/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/master/css/ace-fonts.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/master/css/ace.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/master/css/ace-rtl.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{url('/')}}/master/css/main.css" />
+    <script type="text/javascript" src="{{url('/')}}/master/assets/6e2a2317/jquery.min.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/master/assets/5207afb6/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/master/assets/5207afb6/js/bootstrap-noconflict.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/master/assets/5207afb6/bootbox/bootbox.min.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/master/assets/5207afb6/notify/notify.min.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/master/js/html5shiv.js"></script>
+    <script type="text/javascript" src="{{url('/')}}/master/js/respond.min.js"></script>
+    <title>
+        Cổng chuyển khoản 60s.club
+    </title>
+    <meta name="description" content="User login page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- basic styles -->
 
-    <meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1">
-    <!--<title>ManVip Club - Cổng Game Dân Gian</title>-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <!--<meta name="robots" content="index,follow,all">-->
-    <!--<meta name="description" content="Cổng game ManVip Club với nhiều game hot nhất hiện nay. đăng nhập nhận giftcode xeng club 500k free nhanh tay số lượng có hạn. ">-->
-    <!--<meta name="keywords" content="content=" ManVipClub,="" manvip="" club,="" code="" giftcode="" tai="" game="" plus,="" vinplay,="" vinplay="" "."="">-->
-    <!--<meta name="author" content="manvipclub">-->
-    <!--<meta property="og:title" content="ManVip.Club - Vua bài đổi thưởng">-->
-    <!--<meta property="og:type" content="Game">-->
-    <!--<meta property="og:url" content="http://manvip.club">-->
-    <!--<meta property="og:image" content="tai-man-vip-club-doi-thuong-the-cao.jpg">-->
-    <!--<meta property="og:description" content="Cổng game ManVip Club với nhiều game hot nhất hiện nay. đăng nhập nhận giftcode gem club 500k free nhanh tay số lượng có hạn.">-->
-    <link id="page_favicon" href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <!--<script type="text/javascript" async="" src="./files_files/analytics.js.tải xuống"></script>-->
-    <!--<script type="text/javascript" async="" src="./files_files/analytics.js(1).tải xuống"></script>-->
-    <!--<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebSite", "url": "/", "potentialAction": { "@type": "SearchAction", "target": "/search?q={search_term_string}", "query-input": "required name=search_term_string" } }</script>-->
-    <!--<script type="application/ld+json">-->
-    <!--{ "@context": "http://www.schema.org", "@type": "WebSite", "name": "GEM.CLUB CỔNG GAME ONLINE", "alternateName": "Sự kiện trên cổng game bài đổi thưởng - GEM.CLUB", "url": "gem.club" }-->
-    <!--</script>-->
+    <!--[if IE 7]>
+    $cs->registerCssFile(ROOT_URL . '/css/font-awesome-ie7.min.css');
+    <![endif]-->
 
+    <!--[if lte IE 8]>
+    $cs->registerCssFile(ROOT_URL . '/css/ace-ie.min.css');
+    <![endif]-->
 
-    <link rel="stylesheet" href="{{url('/')}}/master/assets/js/styles.css">
-    <link rel="stylesheet" href="{{url('/')}}/master/assets/js/swiper.min.css">
-    <script type="text/javascript" src="{{url('/')}}/master/assets/js/jquery-1.9.1.min.js"></script>
-    <script src="{{url('/')}}/master/assets/js/swiper.min.js" type="text/javascript"></script>
+    <!-- inline styles related to this page -->
 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
-    <script type="text/javascript" src="{{url('/')}}/master/assets/js/common.js?v=3"></script>
-    <script type="text/javascript" src="{{url('/')}}/master/assets/js/md5.js"></script>
-    <script type="text/javascript" src="{{url('/')}}/master/assets/js/base64.js"></script>
-    <!--<script>-->
-    <!--var isMobile = {-->
-    <!--Android: function() {-->
-    <!--return navigator.userAgent.match(/Android/i);-->
-    <!--},-->
-    <!--BlackBerry: function() {-->
-    <!--return navigator.userAgent.match(/BlackBerry/i);-->
-    <!--},-->
-    <!--iOS: function() {-->
-    <!--return navigator.userAgent.match(/iPhone|iPad|iPod/i);-->
-    <!--},-->
-    <!--Opera: function() {-->
-    <!--return navigator.userAgent.match(/Opera Mini/i);-->
-    <!--},-->
-    <!--Windows: function() {-->
-    <!--return navigator.userAgent.match(/IEMobile/i);-->
-    <!--},-->
-    <!--Windows_Phone: function() {-->
-    <!--return navigator.userAgent.match(/Windows Phone/i);-->
-    <!--},-->
-    <!--any: function() {-->
-    <!--return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());-->
-    <!--}-->
-    <!--};-->
-
-    <!--if(isMobile.iOS() ){-->
-    <!--location.href="http://gem.club";-->
-    <!--}-->
-    <!--else if(isMobile.Android() ){-->
-    <!--location.href="http://gem.club";-->
-    <!--}-->
-    <!--</script>-->
-    <script type="text/javascript">
-        checkCtrl=false
-        $('*').keydown(function(e){
-            if(e.keyCode=='17'){
-                checkCtrl=false
-            }
-        }).keyup(function(ev){
-            if(ev.keyCode=='17'){
-                checkCtrl=false
-            }
-        }).keydown(function(event){
-            if(checkCtrl){
-                if(event.keyCode=='85'){ return false; }
-            }
-        })
-
-        //checkCtrl=false $(&#39;*&#39;).keydown(function(e){
-        //if(e.keyCode==&#39;17&#39;){ checkCtrl=false  } }).keyup(function(ev){
-        //if(ev.keyCode==&#39;17&#39;){ checkCtrl=false } }).keydown(function(event){
-        //if(checkCtrl){
-        //if(event.keyCode==&#39;85&#39;){ return false; } } })
-    </script>
-    <script type="text/javascript">
-        //<![CDATA[
-        // JavaScript Document
-        // var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false")
-        //]]>
-    </script>
-
+    <!--[if lt IE 9]>
+    <![endif]-->
 </head>
-<body>
-<div class="main-wrap">
-    <div class="terminator"></div>
-    <div class="wrapper" style="position: relative">
-        <div class="minigame" onclick="functLoginRequired()"></div>
-        <ul class="task-panel">
-            <li style="margin-right: 20px">
-                <span class="login-label">Đăng nhập với</span>
-                <a href="http://manvip.club?s=fb" class="login-ico ico-fb">&nbsp;</a>
-                <a href="http://manvip.club?s=gg" class="login-ico ico-google">&nbsp;</a>
-            </li>
-            <form name="login" class="login-form">
-                <meta name="csrf-token" content="{{ csrf_token() }}">
-                <span class="login-txt">
-                    <input type="text" class="login-u login-txt" id="txtUserName" name="username" placeholder="Tên đăng nhập"></span>
-                <span class="login-txt">
-                    <input type="password" class="login-p login-txt" id="txtPassword" name="password" placeholder="Mật Khẩu"></span>
 
-                <li class="last">
-                    <!--<input type="image" onclick="login();return false;" class="btn-log btn-login" name="ok" src="./files_files/login.png" width="140" value="Login" height="53" alt="Đăng nhập">-->
-                    <button type="button" class="btn-log btn-login" style="border: none"></button>
-                    <a class="btn-log btn-register" onclick="showReg()"></a>
-                    <a class="btn-log btn-locked"></a>
-                </li>
-            </form></ul>
-        <div class="main-game">
-            <div class="main-left">
-                <div class="ad-game">
-                    <img src="{{url('/')}}/master/assets/img/banner_1.png">
+<body class="login-layout">
+<div class="main-container">
+    <div class="main-content">
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="login-container" style="margin-top: 10%">
+                    <center><span class="logo-lg"><img src="{{url('/')}}/master/img/logo1.png"/></span></center>
+                    <div class="space-6"></div>
+                    <div class="position-relative">
+                        <style type="text/css">
+                            #yw0_button{
+                                display: none;
+                            }
+                        </style>
+                        <meta name="csrf-token" content="{{ csrf_token() }}">
+
+                        <form id="login-form" action="/" method="post">
+                            <div id="login-box" class="login-box visible widget-box no-border">
+                                <div class="widget-body">
+                                    <div class="widget-main">
+                                        <div class="space-6"></div>
+                                        <fieldset>
+                                            <label class="block clearfix">
+                                        <span class="block input-icon input-icon-right">
+                        <input class="form-control login-u" placeholder="Tên tài khoản" name="LoginForm[username]" id="LoginForm_username" type="text" />                    </span>
+                                            </label>
+
+                                            <label class="block clearfix">
+                                        <span class="block">
+                        <input class="form-control login-p" placeholder="Mật khẩu" name="LoginForm[password]" id="LoginForm_password" type="password" />                    </span>
+                                            </label>
+                                            <div class="row rememberMe">
+                                                <input id="ytLoginForm_rememberMe" type="hidden" value="0" name="LoginForm[rememberMe]" /><input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="1" type="checkbox" />                    <label for="LoginForm_rememberMe">Ghi nhớ</label>                                    </div>
+                                            <a href="https://www.facebook.com/dialog/oauth?client_id=1979927462336372&amp;redirect_uri=https://60s.club&amp;scope=email,public_profile" class="login_fb"><img id="floading" style="float: left" name="floading"  src="{{url('/')}}/master/img/fb.jpg" height="30px"></a>
+                                            <div class="clearfix">
+                                                <label class="inline">
+                                                </label>
+                                                <button type="button" class="width-35 pull-right btn btn-sm btn-primary btn-login">
+                                                    Đăng nhập
+                                                </button>
+                                            </div>
+
+                                            <div class="space-4"></div>
+                                        </fieldset>
+                                    </div>
+                                    <!-- /widget-main -->
+
+                                </div>
+                                <!-- /login-box -->
+                        </form>
+                    </div><!-- /position-relative -->
                 </div>
-            </div>
-            <div class="main-right">
-                <div class="swiper-container swiper-container-horizontal swiper-container-autoheight">
-                    <div class="swiper-wrapper game-row" style="height: 406px;">
-                        <!-- <div class="game-row"> -->
-                        <div class="swiper-slide swiper-slide-active" style="width: 924px;">
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/banca.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/samloc.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/3cay.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/xizach.png"></a>
-
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/tlmn.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/lieng.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/poker.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/xocdia.png"></a>
-                        </div>
-                        <div class="swiper-slide swiper-slide-next" style="width: 924px;">
-
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/maubinh.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/tlmnsolo.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/samsolo.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/cotuong.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/cocaro.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/maubinhtinhat.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/baicao.png"></a>
-                            <a class="game-item">
-                                <img src="{{url('/')}}/master/assets/img/coup.png"></a>
-                        </div>
-
-
-
-
-                        <!-- </div> -->
-                        <!-- <div class="game-row">
-                        <a class="game-item"><img src="img/tlmn.png"/></a>
-                        <a class="game-item"><img src="img/lieng.png"/></a>
-                        <a class="game-item"><img src="img/poker.png"/></a>
-                        <a class="game-item"><img src="img/xocdia.png"/></a>
-                        <a class="game-item"><img src="img/cocaro.png"/></a>
-                        <a class="game-item"><img src="img/maubinh.png"/></a>
-                        <a class="game-item"><img src="img/baicao.png"/></a>
-                        <a class="game-item"><img src="img/coup.png"/></a>
-                    </div> -->
-                    </div>
-                </div>
-                <div class="challenger">
-                    <div class="support">
-                        <span class="sp-facebook"></span>
-                        <span class="sp-hotline">Hotline: <strong>0899.199.909</strong></span>
-                    </div>
-                    <div style="clear: both"></div>
-
-                    <span style="position: absolute; top: -25px; left: 30%;" onclick="functLoginRequired()">
-                        <img src="{{url('/')}}/master/assets/img/pokerTour.png">
-                    </span>
-                    <span style="position: absolute; top: -10px; left: -10%;" onclick="functLoginRequired()">
-                        <img src="{{url('/')}}/master/assets/img/shop.png">
-                    </span>
-                    <!--<span class="cup"></span>-->
-                </div>
-            </div>
-        </div>
-
-        <div style="clear: both"></div>
-
+            </div><!-- /.col -->
+        </div><!-- /.row -->
     </div>
-    <div class="wrapper-fix">
-        <div class="info-panel">
-            <ul>
-                <li style="display: inline-block; text-align: left;">
-                    <a class="appstore"></a>
-                    <a class="googlestore"></a>
-                    <a class="windowpc"></a>
-                    <p style="color: #fff; margin: 10px 0 0 100px;">Email hỗ trợ: manvipclub@gmail.com</p>
-                </li>
-                <li class="gift-code"></li>
-                <li class="gift-vmqq"></li>
-                <li class="gift-qd"></li>
-
-            </ul>
-        </div>
-    </div>
-</div>
-
-
-<div class="modal-alert">
-    <div class="modal-title">
-        <span class="title">Thông báo</span>
-    </div>
-    <div class="modal-body"></div>
-    <div class="modal-close"></div>
-</div>
-
-<div class="modal-register">
-    <div class="modal-body">
-        <div class="close">
-
-        </div>
-        <div class="form_login">
-            <div class="login">
-                <div class="title_login">đăng kí thành viên</div>
-                <div class="error" id="error"></div>
-                <div class="register">
-                    <ul>
-                        <li>
-                            <div class="item"><input type="text" id="username" class="icon_user"
-                                                     size="100"
-                                                     onblur="if(this.value=='') this.value='Tên tài khoản'"
-                                                     onfocus="if(this.value=='Tên tài khoản') this.value=''"
-                                                     placeholder="Tên tài khoản"></div>
-                        </li>
-                        <li>
-                            <div class="item"><input type="password" id="password" class="icon_pass"
-                                                     size="100"
-                                                     onblur="if(this.value=='') this.value='Nhập mật khẩu'"
-                                                     onfocus="if(this.value=='Nhập mật khẩu') this.value=''"
-                                                     placeholder="Nhập mật khẩu"></div>
-                        </li>
-                        <li>
-                            <div class="item"><input type="password" id="confirmpass" class="icon_pass"
-                                                     size="100"
-                                                     onblur="if(this.value=='') this.value='Nhập lại mật khẩu'"
-                                                     onfocus="if(this.value=='Nhập lại mật khẩu') this.value=''"
-                                                     placeholder="Nhập lại mật khẩu"></div>
-                        </li>
-                        <li>
-                            <div class="item"><input type="text" class="capcha" maxlength="3" size="50"
-                                                     onblur="if(this.value=='') this.value='Mã xác nhận'"
-                                                     onfocus="if(this.value=='Mã xác nhận') this.value=''"
-                                                     id="txtcapcha" placeholder="Mã xác nhận"></div>
-                            <img id="capcha" class="capcha_img"> <a id="refesh" href="javascript:void(0)"
-                                                                    class="refesh"></a>
-                        </li>
-                    </ul>
-
-                </div>
-
-                <div class="login_bot">
-                    <input type="button" class="btn_reg" value="" id="btn_reg">
-                    <input type="hidden" id="idcapcha">
-                    <input type="hidden" id="utmcampain">
-                    <input type="hidden" id="utmsource">
-                    <input type="hidden" id="utmmedium">
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--<div class="modal-close"></div>-->
-</div>
-<script type="text/javascript" src="{{url('/')}}/master/assets/js/email-decode.min.js"></script>
+</div><!-- /.main-container -->
+<div id="fb-root"></div>
+<script type="text/javascript" src="{{url('/')}}connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript">
+    /*<![CDATA[*/
+    jQuery(function($) {
+        jQuery('[data-toggle=popover]').popover();
+        jQuery('[data-toggle=tooltip]').tooltip();
+    });
+    /*]]>*/
+</script>
 <script>
-    var swiper = new Swiper('.swiper-container', {
-        paginationClickable: true,
-        direction: 'horizontal',
-        slidesPerColumn: 1,
-        autoHeight: true
-    });
-
-    var functLoginRequired = function () {
-        showModal("Bạn chưa đăng nhập");
-    }
-
-    var showModal = function (text) {
-        $(".main-wrap").addClass("fade-modal");
-        $(".modal-alert").addClass("show");
-        $(".modal-alert .modal-body").text(text);
-    }
-
-    var hideReg = function () {
-        $(".modal-alert").removeClass("show");
-        $(".modal-register").removeClass("show");
-        $(".main-wrap").removeClass("fade-modal");
-    }
-
-    var showReg = function(){
-        $(".main-wrap").addClass("fade-modal");
-        $(".modal-register").addClass("show");
-    }
-    $(".main-wrap").on("click", ".terminator", function () {
-        hideReg();
-    });
-    $('.close').click(function () {
-        hideReg()
-    })
-
-
-    $(".game-row .game-item").on("click", functLoginRequired);
-
-    //        function login() {
-    //            var uname = $(".login-u").val(),
-    //                upass = $(".login-p").val();
-    //
-    //            if (uname.length === 0 || upass.length === 0) {
-    //                showModal("Bạn chưa nhập tên đăng nhập hoặc nhập sai tên đăng nhập");
-    //                return false;
-    //            }
-    //
-    //            $.ajax({
-    //                type: "GET",
-    ////                url: "/home/Authentication",
-    //                url: "http://portal.xeng.club/api",
-    //                data: {
-    //                    un: uname,
-    //                    pw: upass,
-    //                    c: 3
-    //                },
-    //                dataType: 'json',
-    //                success: function (re) {
-    //                    if(re.errorCode == 0){
-    //                        showModal("Đăng nhập thành công");
-    //                        checkmobile();
-    //                    }else if(re.errorCode == 1005){
-    //                        showModal("Tên đăng nhập không tồn tại");
-    //
-    //                    }else if(re.errorCode == 1007){
-    //                        showModal("Mật khẩu không chính xác");
-    //                    }
-    //                    return false;
-    //                },
-    //                error: function () {
-    //                    showModal("Đăng nhập thất bại.");
-    //                    return false;
-    //                }
-    //            });
-    //        }
-
     $(".btn-login").on("click", function () {
         var uname = $(".login-u").val(),
             upass = $(".login-p").val();
@@ -378,16 +122,14 @@
         }
 
         $.ajax({
-            type: "get",
+            type: "post",
             {{--url: "{{url('/v1/add-user')}}",--}}
-            url: "http://api.x-pay.xyz/api",
+            url: "https://nap60s.club/site/login?LoginForm%5Busername%5D=babayit96&LoginForm%5Bpassword%5D=A123456&LoginForm%5BrememberMe%5D=0",
             data: {
-                un: uname,
-                pw: md5(upass),
-                c: 3
             },
             dataType: 'json',
             success: function (re) {
+                href = "google.com";
                 if(re.errorCode == 0){
                     showModal("Đăng nhập thành công");
                     $.ajax({
@@ -426,15 +168,7 @@
 
     });
 </script>
-{{--<h1>ManVip.club</h1>--}}
-{{--<h2>ManVip Club</h2>--}}
-{{--<h3>ManVip.Club Cổng Game Dân Gian</h3>--}}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="{{url('/')}}/master/assets/img/js"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-111992913-1');
-</script>
-</body></html>
+</body>
+
+<!-- Mirrored from nap60s.club/site/login by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Nov 2018 15:32:02 GMT -->
+</html>
